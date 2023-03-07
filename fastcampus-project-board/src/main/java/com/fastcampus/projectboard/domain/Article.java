@@ -41,7 +41,6 @@ public class Article extends AuditingFields{
     private final Set<ArticleComment> articleComments = new LinkedHashSet<>();
 
     protected Article() {
-
     }
 
     private Article(String title, String content, String hashtag) {
